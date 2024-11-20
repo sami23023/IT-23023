@@ -22,7 +22,7 @@ public class JavaProject {
         System.out.println("1. Warm-Up");
         System.out.println("2. BattleField");
         System.out.println("3. Final Boss");
-        int choice = sc.nextInt();
+        int choice = scanner.nextInt();
         scanner.nextLine();
 
         switch (choice) {
