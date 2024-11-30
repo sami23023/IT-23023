@@ -9,6 +9,7 @@ public class labwork{
         char ans='z';
         name=scn.nextLine();
         System.out.println("Hi "+name+"! Welcome to the Quiz game.\n");
+        for(;;){
         for(i=1;i<=5;i++)
         {
             Scanner sc=new Scanner(System.in);
@@ -51,8 +52,14 @@ public class labwork{
                 score--;
             }
         }
+    
         System.out.println("Your scare is: "+score);
-        scn.close();
+        System.out.println("If you want to play again Enter 1. Else Enter 0");
+        int z=scn.nextInt();
+        if(z==0)
+        break;
+        
+    }
     }
    
 }
